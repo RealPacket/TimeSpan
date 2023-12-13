@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "allowImportingTsExtensions": true,
+        "module": "NodeNext",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true
+    },
+    "exclude": [
+        "genDocs.ts",
+        "tests/**/*.ts"
+    ]
+}
