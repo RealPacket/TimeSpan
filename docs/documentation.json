@@ -21,7 +21,7 @@
 			},
 			"children": [
 				{
-					"id": 50,
+					"id": 46,
 					"name": "constructor",
 					"variant": "declaration",
 					"kind": 512,
@@ -35,7 +35,7 @@
 					],
 					"signatures": [
 						{
-							"id": 51,
+							"id": 47,
 							"name": "new default",
 							"variant": "signature",
 							"kind": 16384,
@@ -57,7 +57,7 @@
 							],
 							"parameters": [
 								{
-									"id": 52,
+									"id": 48,
 									"name": "milliseconds",
 									"variant": "param",
 									"kind": 32768,
@@ -77,7 +77,7 @@
 									"defaultValue": "0"
 								},
 								{
-									"id": 53,
+									"id": 49,
 									"name": "seconds",
 									"variant": "param",
 									"kind": 32768,
@@ -97,7 +97,7 @@
 									"defaultValue": "0"
 								},
 								{
-									"id": 54,
+									"id": 50,
 									"name": "minutes",
 									"variant": "param",
 									"kind": 32768,
@@ -117,7 +117,7 @@
 									"defaultValue": "0"
 								},
 								{
-									"id": 55,
+									"id": 51,
 									"name": "hours",
 									"variant": "param",
 									"kind": 32768,
@@ -137,7 +137,7 @@
 									"defaultValue": "0"
 								},
 								{
-									"id": 56,
+									"id": 52,
 									"name": "days",
 									"variant": "param",
 									"kind": 32768,
@@ -166,7 +166,7 @@
 					]
 				},
 				{
-					"id": 57,
+					"id": 53,
 					"name": "Days",
 					"variant": "declaration",
 					"kind": 1024,
@@ -175,13 +175,13 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "the "
+								"text": "The "
 							},
 							{
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "days",
-								"target": 57,
+								"target": 53,
 								"tsLinkText": "days"
 							},
 							{
@@ -215,7 +215,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 58,
+					"id": 54,
 					"name": "Hours",
 					"variant": "declaration",
 					"kind": 1024,
@@ -224,13 +224,13 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "the "
+								"text": "The "
 							},
 							{
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "hours",
-								"target": 58,
+								"target": 54,
 								"tsLinkText": "hours"
 							},
 							{
@@ -264,7 +264,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 61,
+					"id": 57,
 					"name": "Milliseconds",
 					"variant": "declaration",
 					"kind": 1024,
@@ -273,13 +273,13 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "the "
+								"text": "The "
 							},
 							{
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "milliseconds",
-								"target": 61,
+								"target": 57,
 								"tsLinkText": "milliseconds"
 							},
 							{
@@ -313,7 +313,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 59,
+					"id": 55,
 					"name": "Minutes",
 					"variant": "declaration",
 					"kind": 1024,
@@ -322,13 +322,13 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "the "
+								"text": "The "
 							},
 							{
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "minutes",
-								"target": 59,
+								"target": 55,
 								"tsLinkText": "minutes"
 							},
 							{
@@ -362,7 +362,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 60,
+					"id": 56,
 					"name": "Seconds",
 					"variant": "declaration",
 					"kind": 1024,
@@ -371,13 +371,13 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "the "
+								"text": "The "
 							},
 							{
 								"kind": "inline-tag",
 								"tag": "@link",
 								"text": "seconds",
-								"target": 60,
+								"target": 56,
 								"tsLinkText": "seconds"
 							},
 							{
@@ -411,7 +411,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 62,
+					"id": 58,
 					"name": "TotalDays",
 					"variant": "declaration",
 					"kind": 1024,
@@ -420,7 +420,7 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "Gets the value of the current "
+								"text": "The value of the current "
 							},
 							{
 								"kind": "inline-tag",
@@ -449,7 +449,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 63,
+					"id": 59,
 					"name": "TotalHours",
 					"variant": "declaration",
 					"kind": 1024,
@@ -458,7 +458,7 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "Gets the value of the current "
+								"text": "The value of the current "
 							},
 							{
 								"kind": "inline-tag",
@@ -487,7 +487,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 66,
+					"id": 62,
 					"name": "TotalMilliseconds",
 					"variant": "declaration",
 					"kind": 1024,
@@ -496,7 +496,7 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "Gets the value of the current "
+								"text": "The value of the current "
 							},
 							{
 								"kind": "inline-tag",
@@ -525,7 +525,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 64,
+					"id": 60,
 					"name": "TotalMinutes",
 					"variant": "declaration",
 					"kind": 1024,
@@ -534,7 +534,7 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "Gets the value of the current "
+								"text": "The value of the current "
 							},
 							{
 								"kind": "inline-tag",
@@ -563,7 +563,7 @@
 					"defaultValue": "0"
 				},
 				{
-					"id": 65,
+					"id": 61,
 					"name": "TotalSeconds",
 					"variant": "declaration",
 					"kind": 1024,
@@ -572,7 +572,7 @@
 						"summary": [
 							{
 								"kind": "text",
-								"text": "Gets the value of the current "
+								"text": "The value of the current "
 							},
 							{
 								"kind": "inline-tag",
@@ -768,7 +768,7 @@
 					"defaultValue": "..."
 				},
 				{
-					"id": 67,
+					"id": 63,
 					"name": "to",
 					"variant": "declaration",
 					"kind": 2048,
@@ -776,13 +776,13 @@
 					"sources": [
 						{
 							"fileName": "TimeSpan.ts",
-							"line": 193,
+							"line": 185,
 							"character": 2
 						}
 					],
 					"signatures": [
 						{
-							"id": 68,
+							"id": 64,
 							"name": "to",
 							"variant": "signature",
 							"kind": 4096,
@@ -818,13 +818,13 @@
 							"sources": [
 								{
 									"fileName": "TimeSpan.ts",
-									"line": 193,
+									"line": 185,
 									"character": 2
 								}
 							],
 							"parameters": [
 								{
-									"id": 69,
+									"id": 65,
 									"name": "type",
 									"variant": "param",
 									"kind": 32768,
@@ -1275,22 +1275,22 @@
 				{
 					"title": "Constructors",
 					"children": [
-						50
+						46
 					]
 				},
 				{
 					"title": "Properties",
 					"children": [
+						53,
+						54,
 						57,
+						55,
+						56,
 						58,
-						61,
 						59,
-						60,
 						62,
-						63,
-						66,
-						64,
-						65,
+						60,
+						61,
 						7,
 						8,
 						9,
@@ -1301,7 +1301,7 @@
 				{
 					"title": "Methods",
 					"children": [
-						67,
+						63,
 						36,
 						12,
 						18,
@@ -1532,7 +1532,43 @@
 	"readme": [
 		{
 			"kind": "text",
-			"text": "# TimeSpan\r\n\r\nA simple library which is mostly the same as the C#/.NET Framework TimeSpan.\r\n\r\n## Main differences from the C#/.NET Framework TimeSpan\r\n\r\n- TypeScript, not C#/.NET\r\n- Milliseconds are the base measure\r\n  - in C#/.NET, the base measure is ticks (1 tick = 100 nanoseconds or 1 tick = a 0001th of a millisecond).\r\n- supports camelCase and PascalCase\r\n  - in C#/.NET, they use PascalCase and don't support anything else."
+			"text": "# TimeSpan\r\n\r\nA simple library which is mostly the same as the C#/.NET Framework TimeSpan.\r\nRun the example code in "
+		},
+		{
+			"kind": "code",
+			"text": "`bench.ts`"
+		},
+		{
+			"kind": "text",
+			"text": " using "
+		},
+		{
+			"kind": "code",
+			"text": "`deno bench`"
+		},
+		{
+			"kind": "text",
+			"text": " or "
+		},
+		{
+			"kind": "code",
+			"text": "`deno run bench.ts`"
+		},
+		{
+			"kind": "text",
+			"text": ".\r\n\r\n## Main differences from the C#/.NET Framework TimeSpan\r\n\r\n- TypeScript, not C#/.NET\r\n- Milliseconds are the base measure\r\n  - in C#/.NET, the base measure is ticks (1 tick = 100 nanoseconds or 1 tick = a 0001th of a millisecond).\r\n- supports camelCase and PascalCase (for functions/methods only)\r\n  - in C#/.NET, they use PascalCase and don't support anything else.\r\n\r\n## Example and comparing to the C# version\r\n\r\nThis Library:\r\n\r\n"
+		},
+		{
+			"kind": "code",
+			"text": "```ts\r\nimport TimeSpan from \"./src/mod.ts\";\r\n\r\nconst ts = TimeSpan.fromDays(10);\r\n\r\nconsole.log(\"--- Days         ---\");\r\n\r\n// these 2 both output 10.\r\nconsole.log(ts.Days);\r\nconsole.log(ts.TotalDays);\r\n\r\nconsole.log(\"/// Days         ///\");\r\nconsole.log(\"--- Hours        ---\");\r\nconsole.log(); // separator\r\n\r\nconsole.log(ts.Hours); // 0 (we didn't pass any hours in)\r\nconsole.log(ts.TotalHours); // 240 (10 days = 240 hours)\r\n\r\nconsole.log(\"/// Hours        ///\");\r\nconsole.log(); // separator\r\nconsole.log(\"--- Minutes      ---\");\r\n\r\nconsole.log(ts.Minutes); // 0 (we didn't pass any minutes in)\r\nconsole.log(ts.TotalMinutes);\r\n\r\nconsole.log(\"/// Minutes      ///\");\r\nconsole.log(); // separator\r\nconsole.log(\"--- Seconds      ---\");\r\n\r\nconsole.log(ts.Seconds); // 0 (we didn't pass any seconds in)\r\nconsole.log(ts.TotalSeconds);\r\n\r\nconsole.log(\"/// Seconds      ///\");\r\nconsole.log(); // separator\r\nconsole.log(\"--- Milliseconds ---\");\r\n\r\nconsole.log(ts.Milliseconds); // 0 (we didn't pass any milliseconds in)\r\nconsole.log(ts.TotalMilliseconds); // 14400\r\nconsole.log(\"/// Milliseconds ///\");\r\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\r\n\r\nC#'s TimeSpan class:\r\n\r\n"
+		},
+		{
+			"kind": "code",
+			"text": "```cs\r\nvar ts = TimeSpan.FromDays(10);\r\nConsole.WriteLine(\"--- Days         ---\");\r\n\r\n// these 2 both output 10.\r\nConsole.WriteLine(ts.Days);\r\nConsole.WriteLine(ts.TotalDays);\r\n\r\nConsole.WriteLine(\"/// Days         ///\");\r\nConsole.WriteLine(\"--- Hours        ---\");\r\nConsole.WriteLine(); // separator\r\n\r\nConsole.WriteLine(ts.Hours); // 0 (we didn't pass any hours in)\r\nConsole.WriteLine(ts.TotalHours); // 240 (10 days = 240 hours)\r\n\r\nConsole.WriteLine(\"/// Hours        ///\");\r\nConsole.WriteLine(); // separator\r\nConsole.WriteLine(\"--- Minutes      ---\");\r\n\r\nConsole.WriteLine(ts.Minutes); // 0 (we didn't pass any minutes in)\r\nConsole.WriteLine(ts.TotalMinutes); // 14400\r\n\r\nConsole.WriteLine(\"/// Minutes      ///\");\r\nConsole.WriteLine(); // separator\r\nConsole.WriteLine(\"--- Seconds      ---\");\r\n\r\nConsole.WriteLine(ts.Seconds); // 0 (we didn't pass any seconds in)\r\nConsole.WriteLine(ts.TotalSeconds); // 864000\r\n\r\nConsole.WriteLine(\"/// Seconds      ///\");\r\nConsole.WriteLine(); // separator\r\nConsole.WriteLine(\"--- Milliseconds ---\");\r\n\r\nConsole.WriteLine(ts.Milliseconds); // 0 (we didn't pass any milliseconds in)\r\nConsole.WriteLine(ts.TotalMilliseconds); // 14400\r\nConsole.WriteLine(\"/// Milliseconds ///\");\r\n```"
 		}
 	],
 	"symbolIdMap": {
@@ -1648,83 +1684,83 @@
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "time"
 		},
-		"50": {
+		"46": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.__constructor"
 		},
-		"51": {
+		"47": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan"
 		},
-		"52": {
+		"48": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "milliseconds"
 		},
-		"53": {
+		"49": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "seconds"
 		},
-		"54": {
+		"50": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "minutes"
 		},
-		"55": {
+		"51": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "hours"
 		},
-		"56": {
+		"52": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "days"
 		},
-		"57": {
+		"53": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.Days"
 		},
-		"58": {
+		"54": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.Hours"
 		},
-		"59": {
+		"55": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.Minutes"
 		},
-		"60": {
+		"56": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.Seconds"
 		},
-		"61": {
+		"57": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.Milliseconds"
 		},
-		"62": {
+		"58": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.TotalDays"
 		},
-		"63": {
+		"59": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.TotalHours"
 		},
-		"64": {
+		"60": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.TotalMinutes"
 		},
-		"65": {
+		"61": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.TotalSeconds"
 		},
-		"66": {
+		"62": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.TotalMilliseconds"
 		},
-		"67": {
+		"63": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.to"
 		},
-		"68": {
+		"64": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "TimeSpan.to"
 		},
-		"69": {
+		"65": {
 			"sourceFileName": "src/TimeSpan.ts",
 			"qualifiedName": "type"
 		}
