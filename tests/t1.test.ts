@@ -49,7 +49,7 @@ Deno.test("fromDays", () => {
 console.groupEnd();
 //#endregion
 
-//#region from("X")
+//#region from("X", y)
 Deno.test("from", async t => {
   console.group('from("X")');
   await t.step("milliseconds", () => {
