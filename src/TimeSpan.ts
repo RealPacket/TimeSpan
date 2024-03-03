@@ -163,14 +163,24 @@ export class TimeSpan {
   static from(type: measure, time = 1): TimeSpan {
     switch (type) {
       case "milliseconds":
+      case "millisecond":
+      case "ms":
         return TimeSpan.fromMilliseconds(time);
       case "seconds":
+      case "second":
+      case "sec":
         return TimeSpan.fromSeconds(time);
       case "minutes":
+      case "min":
+      case "mins":
         return TimeSpan.fromMinutes(time);
-      case "hours":
+      case "hour":
+      case "hr":
+      case "hrs":
         return TimeSpan.fromHours(time);
       case "days":
+      case "d":
+      case "ds":
         return TimeSpan.fromDays(time);
       default:
         throw new Error(`Unsupported time span type: "${type}"`);
@@ -185,14 +195,24 @@ export class TimeSpan {
   to(type: measure): number {
     switch (type) {
       case "milliseconds":
+      case "millisecond":
+      case "ms":
         return this.TotalMilliseconds;
       case "seconds":
+      case "second":
+      case "sec":
         return this.TotalSeconds;
       case "minutes":
+      case "min":
+      case "mins":
         return this.TotalMinutes;
-      case "hours":
+      case "hour":
+      case "hr":
+      case "hrs":
         return this.TotalHours;
       case "days":
+      case "d":
+      case "ds":
         return this.TotalDays;
       default:
         throw new Error(`Unsupported type: "${type}"`);
