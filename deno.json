@@ -1,5 +1,8 @@
 {
-    "tasks": {
-        "docs": "deno run --allow-read --allow-env --allow-run --allow-write genDocs.ts"
-    }
+	"tasks": {
+		"docs": "deno run --allow-read --allow-env --allow-run --allow-write genDocs.ts"
+	},
+	"fmt": {
+		"useTabs": true
+	}
 }

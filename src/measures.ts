@@ -23,11 +23,11 @@ export type dayAlias = "days" | "d" | "ds";
  * A type representing some time measures as a string.
  */
 export type measure =
-  | millisecondAlias
-  | secondAlias
-  | minAlias
-  | hourAlias
-  | dayAlias;
+	| millisecondAlias
+	| secondAlias
+	| minAlias
+	| hourAlias
+	| dayAlias;
 
 /**
  * How many milliseconds are in a second.
