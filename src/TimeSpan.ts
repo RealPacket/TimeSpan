@@ -208,6 +208,7 @@ export class TimeSpan {
       case "mins":
         return this.TotalMinutes;
       case "hour":
+      case "hours":
       case "hr":
       case "hrs":
         return this.TotalHours;
