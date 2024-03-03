@@ -11,7 +11,6 @@ Console.WriteLine("--- Hours        ---");
 Console.WriteLine(); // separator
 Console.WriteLine(ts.Hours); // 0 (we didn't pass any hours in)
 Console.WriteLine(ts.TotalHours); // 240 (10 days = 240 hours)
-/// you would never cat the dog when the dog has catted
 
 Console.WriteLine("/// Hours        ///");
 Console.WriteLine(); // separator
