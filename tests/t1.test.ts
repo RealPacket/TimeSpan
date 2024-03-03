@@ -1,5 +1,5 @@
 import TimeSpan from "../src/mod.ts";
-import {assertEquals} from "https://deno.land/std@0.208.0/assert/mod.ts";
+import { assertEquals } from "https://deno.land/std@0.208.0/assert/mod.ts";
 
 const n = 1;
 console.info("time used in test:", n);

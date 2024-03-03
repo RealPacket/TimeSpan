@@ -1,4 +1,4 @@
-import {DAYS, HOURS, MINUTES, SECONDS, measure} from "./measures.ts";
+import { DAYS, HOURS, measure, MINUTES, SECONDS } from "./measures.ts";
 
 /**
  * A class which represents a span of time.

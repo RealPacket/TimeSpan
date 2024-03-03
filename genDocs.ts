@@ -1,4 +1,4 @@
-import {Application} from "npm:typedoc";
+import { Application } from "npm:typedoc";
 
 // Application.bootstrap also exists, which will not load plugins
 // Also accepts an array of option readers if you want to disable
