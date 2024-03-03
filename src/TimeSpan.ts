@@ -175,6 +175,7 @@ export class TimeSpan {
       case "mins":
         return TimeSpan.fromMinutes(time);
       case "hour":
+      case "hours":
       case "hr":
       case "hrs":
         return TimeSpan.fromHours(time);

@@ -4,19 +4,19 @@
 export type millisecondAlias = "milliseconds" | "millisecond" | "ms";
 /**
  * A type representing common aliases for the seconds measure as a type.
-*/
+ */
 export type secondAlias = "seconds" | "second" | "sec";
 /**
  * A type representing common aliases for the minutes measure as a type.
-*/
+ */
 export type minAlias = "minutes" | "min" | "mins";
 /**
  * A type representing common aliases for the hours measure as a type.
-*/
-export type hourAlias = "hr" | "hrs" | "hour";
+ */
+export type hourAlias = "hr" | "hrs" | "hour" | "hours";
 /**
  * A type representing common aliases for the days measure as a type.
-*/
+ */
 export type dayAlias = "days" | "d" | "ds";
 
 /**
@@ -51,4 +51,3 @@ export const HOURS = MINUTES * 60;
 export const DAYS = HOURS * 24;
 
 export default measure;
-
