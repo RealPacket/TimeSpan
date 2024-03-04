@@ -8,13 +8,26 @@ const app = await Application.bootstrapWithPlugins({
 	name: "TimeSpan",
 });
 
-const project = await app.convert();
+console.time("Convert project (app.convert)");
+const project = await app.convert().then(x => {
+	console.timeEnd("Convert project (app.convert)");
+	return x;
+});
+const GENERATE_JSON = false;
 
-// Project may not have converted correctly
 const outputDir = "docs";
+
 if (project) {
+	console.time("Generate docs (HTML)");
 	// Rendered docs
-	await app.generateDocs(project, outputDir);
-	// Alternatively generate JSON output
-	await app.generateJson(project, `${outputDir}/documentation.json`);
+	app.generateDocs(project, outputDir).then(() =>
+		console.timeEnd("Generate docs (HTML)")
+	);
+	if (GENERATE_JSON) {
+		console.time("Generate docs (JSON)");
+		// Alternatively generate JSON output
+		app.generateJson(project, `${outputDir}/documentation.json`).then(() =>
+			console.timeEnd("Generate docs (JSON)")
+		);
+	}
 }
