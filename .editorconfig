@@ -1,6 +1,14 @@
 root = true
 
-[*]
+[*.{yml, yaml}]
+charset = utf-8
+indent_size = 4
+# YAML,
+# why???
+# I should be able to use tabs
+indent_style = space
+
+[!*.{yml, yaml}]
 charset = utf-8
 indent_size = 4
 indent_style = tab

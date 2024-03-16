@@ -73,13 +73,7 @@ export class TimeSpan {
 	 * @param hours The number of hours in the time span.
 	 * @param days The number of days in the time span.
 	 */
-	constructor(
-		milliseconds = 0,
-		seconds = 0,
-		minutes = 0,
-		hours = 0,
-		days = 0,
-	) {
+	constructor(milliseconds = 0, seconds = 0, minutes = 0, hours = 0, days = 0) {
 		this.Milliseconds = milliseconds;
 		this.Seconds = seconds;
 		this.Minutes = minutes;
